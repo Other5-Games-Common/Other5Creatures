@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Other5Creatures",
+	"Description": "Creature art (enemies, wildlife, anything non-player) for Other5 creations: skeletal meshes, animations, materials and their sounds (Barghest, Griffon, Kraken, Stickman, Whisper). Creations make their own enemy or NPC Blueprints from these.",
+	"Category": "Other5",
+	"CreatedBy": "Other5 Games",
+	"CreatedByURL": "https://other5.xyz",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "Other5Characters",
+			"Enabled": true
+		}
+	]
+}

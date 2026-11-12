@@ -1,0 +1,906 @@
+﻿{
+    "Version":  1,
+    "Plugin":  "Other5Creatures",
+    "StandIns":  [
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_Anim",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_biteAggressive",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_biteNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_deathAggressive",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_deathNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_getHitAggressive",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_getHitNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_idleAggressive",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_idleBreathe",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_idleLookAround",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_jumpBiteAggressive",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_jumpBiteAggressive_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_jumpBiteNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_jumpBiteNormal_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_run",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_runBite",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_runBite_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_run_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_walk",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Animations/BARGHEST_walk_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Materials/M_BARGHEST",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Materials/M_HAIR",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Meshes/BARGHEST_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Meshes/BARGHEST_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Meshes/SK_BARGHEST",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Meshes/SK_BARGHEST_MANE",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Meshes/SK_BARGHEST_TAIL",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Textures/BARGHEST_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Textures/BARGHEST_HAIR",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Textures/BARGHEST_HAIR_NRM_Yinv",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Textures/BARGHEST_HAIR_RoughnessSpecularMetallicAO",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Textures/BARGHEST_ILLUM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Textures/BARGHEST_NRM_2_Yinv",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Barghest/Textures/BARGHEST_RoughnessSpecularMetallicAO",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_2HitComboAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_2HitComboAttack_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_3HitComboAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_3HitComboAttack_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_BiteAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_BiteAttack_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Death",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Falling",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyBackwardsStationary",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyGetHitNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyGetHitNormalToFalling",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyGetHitStationary",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyGetHitStationaryToFalling",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyLeftStationary",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyRightStationary",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyStationary",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_FlyStationaryClawsAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Gallop",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Gallop_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_GetHit1",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_GetHit2",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Glide",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_HitTheGround",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Idle",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_JumpToFly",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Landing",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_LeftClawsAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_LeftClawsAttack_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_RightClawsAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_RightClawsAttack_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Swooping",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Turn90Left",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Turn90Left_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Turn90Right",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Turn90Right_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Walk",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Animations/ANIM_Griffon_Walk_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Materials/M_Griffon",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Materials/M_Griffon_Feathers",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Meshes/SK_Griffon",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Meshes/SK_Griffon_Physics",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Meshes/SK_Griffon_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Textures/T_GRIFFON_OcclusionRoughnessMetallicSpecular",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Textures/T_GRIFFON_nml",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Textures/T_Griffon_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Textures/T_Griffon_Feathers",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Textures/T_Griffon_Feathers_OcclusionRoughnessMetallicSpecular",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Griffon/Textures/T_Griffon_Feathers_nml",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_death",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_getHit",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_idle",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_smashAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_smashAttackForward",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_smashAttackForward_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_sweepAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_sweepAttack2HitCombo",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_sweepSmashAttack3HitCombo",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45Left",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45LeftSmashAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45LeftSmashAttack_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45Left_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45Right",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45RightSmashAttack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45RightSmashAttack_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_turn45Right_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_walk",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Animations/KRAKEN_walk_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Materials/Mat_KRAKEN_MAIN_BODY",
+                         "Class":  "Material",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Materials/Mat_TENTACLES_LEGS_CLAWS",
+                         "Class":  "Material",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Meshes/KRAKEN",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Meshes/KRAKEN_Anim",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Meshes/KRAKEN_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Meshes/KRAKEN_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_BODY_AO",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_BODY_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_BODY_NRM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_BODY_RoughnessMetallicSpecular",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_LEG_TENTACLE_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_LEG_TENTACLE_CLAW_AO",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_LEG_TENTACLE_CLAW_NRM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Kraken/Textures/Tex_KRAKEN_LEG_TENTACLE_CLAW_RoughnessMetallicSpecular",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Kraken"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeImpact_01",
+                         "Class":  "SoundWave",
+                         "Source":  "Lyra"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeImpact_02",
+                         "Class":  "SoundWave",
+                         "Source":  "Lyra"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeImpact_03",
+                         "Class":  "SoundWave",
+                         "Source":  "Lyra"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_01",
+                         "Class":  "SoundWave",
+                         "Source":  "Lyra"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_02",
+                         "Class":  "SoundWave",
+                         "Source":  "Lyra"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_03",
+                         "Class":  "SoundWave",
+                         "Source":  "Lyra"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_04",
+                         "Class":  "SoundWave",
+                         "Source":  "Lyra"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Common/Materials/MI_BasicShapeMaterial",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Attack_01",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Attack_02",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Death",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Idle",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Look",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Rest",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_TOS_left",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_TOS_right",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Taunt",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_Walk",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_hit_back",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_hit_body_left",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_hit_body_right",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_hit_head_left",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_hit_head_right",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Animations/A_Stickman_rig_Anim",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Materials/MI_Stickman_01",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Materials/MI_Stickman_02",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Materials/MI_Stickman_03",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Materials/MI_Stickman_04",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Materials/M_Stickman",
+                         "Class":  "Material",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Meshes/PHYS_Stickman",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Meshes/SKEL_Stickman",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Meshes/SK_Stickman",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_01_D",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_01_E",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_01_N",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_01_ORM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_02_D",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_02_ORM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_03_D",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Stickman/Stickman/Textures/T_Stickman_03_ORM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:ROG_Creatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Attack1",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Attack2",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Attack3",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Death",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Idle1",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Idle2",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Idle3",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Idle4",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Run",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Taking_Damage1",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Taking_Damage2",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Walk1",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Walk2",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Walk_Back",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Walk_Left",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Animations/Anim_Whisper_Walk_Right",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Base_Mesh/Phy_Whisper_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Base_Mesh/SKEL_Whisper_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Base_Mesh/SK_Whisper",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Materials/Mat_Whisper_Body",
+                         "Class":  "Material",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Textures/T_Whisper_Body_Albedo",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Textures/T_Whisper_Body_Metallness+rougness",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Textures/T_Whisper_Body_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Whisper/Textures/T_Whisper_Body_Occlusion",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Whisper"
+                     }
+                 ]
+}
