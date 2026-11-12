@@ -11,21 +11,25 @@ makes. Content only, no C++. A creation makes its own enemy or NPC Blueprints fr
 | Kraken | `Content/Kraken` | `Kraken/Audio`: aggro, death |
 | Stickman | `Content/Stickman` | (uses the shared attack sounds) |
 | Whisper | `Content/Whisper` | `Whisper/Audio`: aggro, death |
-| Shared | `Content/Shared/Audio` | Lyra melee whooshes and impacts for any creature's attacks |
+| Shared | `Content/Shared/Audio` | melee whooshes and impacts (`SW_MeleeWhoosh*`, `SW_MeleeImpact*`) for any creature's attacks |
 
 ## What's real here, and what's a stand-in
-- **Other5's own:** the creature voices (`*/Audio/SW_*`, CC0, synthesised by CubeEscape's `Docs/Scripts/SetupSounds.py`)
-  and `PAL_Creatures`.
-- **Stand-ins** for what comes from Fab and Lyra (their licences don't let anyone share the source files):
-  - the creatures from Fab: Barghest and Griffon (PROTOFACTOR's Quadruped Fantasy Creatures), Kraken, Whisper and
-    Stickman (ROG Creatures). Each mesh is a small one-bone box with its own skeleton and physics asset; each
-    animation holds still for a second; the textures and materials are plain;
-  - Lyra's melee whooshes and impacts in `Shared/Audio`: a short soft tone of the same length.
+- **Other5's own (CC0):**
+  - the creature voices (`*/Audio/SW_*`);
+  - the melee sounds in `Shared/Audio`;
+  - `PAL_Creatures`.
+
+  Both sets of sounds are synthesised by CubeEscape's `Docs/Scripts/SetupSounds.py`.
+- **Stand-ins** for the creatures from Fab (their licences don't let anyone share the source files): Barghest and
+  Griffon (PROTOFACTOR's Quadruped Fantasy Creatures), Kraken, Whisper and Stickman (ROG Creatures).
+  - Each mesh is a small one-bone box with its own skeleton and physics asset.
+  - Each animation holds still for a second.
+  - The textures and materials are plain.
 
   `StandIns.json` lists each one and where the real asset comes from.
 
-To get the real look and sound, use **Tools > Other5 Setup** in the Other5 Creator. It walks you through getting the
-Fab packs and Lyra Starter Game with your own Epic account, then puts the real assets in place of the stand-ins. Your
+To get the real look, use **Tools > Other5 Setup** in the Other5 Creator. It walks you through getting the Fab packs
+with your own Epic account, then puts the real assets in place of the stand-ins. Your
 Creation's paks then ship them, cooked, under your own licence. The real files live in your **Other5 library** (by
 default a folder `Other5Library` next to your project folder), never in this repository.
 

@@ -583,41 +583,6 @@
                          "Source":  "Fab:Kraken"
                      },
                      {
-                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeImpact_01",
-                         "Class":  "SoundWave",
-                         "Source":  "Lyra"
-                     },
-                     {
-                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeImpact_02",
-                         "Class":  "SoundWave",
-                         "Source":  "Lyra"
-                     },
-                     {
-                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeImpact_03",
-                         "Class":  "SoundWave",
-                         "Source":  "Lyra"
-                     },
-                     {
-                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_01",
-                         "Class":  "SoundWave",
-                         "Source":  "Lyra"
-                     },
-                     {
-                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_02",
-                         "Class":  "SoundWave",
-                         "Source":  "Lyra"
-                     },
-                     {
-                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_03",
-                         "Class":  "SoundWave",
-                         "Source":  "Lyra"
-                     },
-                     {
-                         "Package":  "/Other5Creatures/Shared/Audio/Lyra_MeleeWhoosh_04",
-                         "Class":  "SoundWave",
-                         "Source":  "Lyra"
-                     },
-                     {
                          "Package":  "/Other5Creatures/Stickman/Common/Materials/MI_BasicShapeMaterial",
                          "Class":  "MaterialInstanceConstant",
                          "Source":  "Fab:ROG_Creatures"
