@@ -866,6 +866,971 @@
                          "Package":  "/Other5Creatures/Whisper/Textures/T_Whisper_Body_Occlusion",
                          "Class":  "Texture2D",
                          "Source":  "Fab:Whisper"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_2HitComboSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Attack2Sword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_DeathAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_DeathBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_DeathNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_DeathNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_DeathSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_DrawSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopBow_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopNormal_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopNotAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GallopSword_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GetHitAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GetHitBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GetHitNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GetHitNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_GetHitSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleAimingToIdleNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleNormalToIdleAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleNormalToIdleNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleNotAimingToIdleNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_IdleSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackBow_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackNormal_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackNotAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_LegAttackSword_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_PutSwordBack",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_ShootArrowToIdleAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotBow_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotNormal_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotNotAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_TrotSword_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftBow_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftNoAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftNoAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftNormal_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90LeftSword_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightBow_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightNoAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightNoAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightNormal_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_Turn90RightSword_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkBow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkBow_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkNormal_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkNotAiming",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkNotAiming_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkSword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_WalkSword_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Animations/ANIM_Centaur_attack1Sword",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Body_1",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Body_2",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Body_3",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Body_4",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Eyes",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Gear",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Hair_1",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Hair_2",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Hair_3",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Materials/M_Centaur_Hair_4",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Arrow_Action",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Arrow_Action_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Beard",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Beard_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Body_Armor",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Body_Armor_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Bow_Action",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Bow_Action_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Bow_Idle_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Bow_idle",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Centaur",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Centaur_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Centaur_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Goaty",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Goaty_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Mane",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Mane_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Mustaches",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Mustaches_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Pork_Chops",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Pork_Chops_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Sheath",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Sheath_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Shoulder_Pads",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Shoulder_Pads_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Sword_Action",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Sword_Idle",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Meshes/SK_Sword_Idle_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Body_BaseColor_1",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Body_BaseColor_2",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Body_BaseColor_3",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Body_BaseColor_4",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Body_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Body_Specular",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Body_nml",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Eyes",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Eyes_OcclusionRoughnessMetallicSpecular",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Eyes_nml",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Gear_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Gear_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Gear_Specular",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Gear_nml",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Hair_1",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Hair_2",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Hair_3",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Hair_4",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/Centaur/Textures/T_Centaur_Hair_nml",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_ClawsAttack2HitComboForward",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_ClawsAttack2HitComboForward_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationary",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationaryGetHit",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationaryToFall",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationaryToLanding",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_LeftClawsAttackForward",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_LeftClawsAttackForward_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_bite",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_biteGrabThrow",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_death",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_deathHitTheGround",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_falling",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_flyNormal",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_flyNormalGetHit",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_flyNormalToFall",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_getHitFront",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_getHitLeft",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_getHitRight",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_glide",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_glidePosToLanding",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_idleBreathe",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_idleLookAround",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_rightClawsAttackForward",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_rightClawsAttackForward_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_run",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_run_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_spitFireBall",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_spreadFire",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_takeOffToFlyStationary",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_takeOffToFlyStationary_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_takeOffToGlide",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_takeOffToGlide_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_turn90Left",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_turn90Left_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_turn90Right",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_turn90Right_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_walk",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Animations/ANIM_MOUNTAIN_DRAGON_walk_RM",
+                         "Class":  "AnimSequence",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Materials/M_MOUNTAIN_DRAGON",
+                         "Class":  "Material",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_PhysicsAsset",
+                         "Class":  "PhysicsAsset",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Meshes/SK_MOUNTAIN_DRAGON",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Textures/T_MOUNTAIN_DRAGON_ALBEDO",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Textures/T_MOUNTAIN_DRAGON_AO",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Textures/T_MOUNTAIN_DRAGON_ILLUM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Textures/T_MOUNTAIN_DRAGON_LEGACY",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Textures/T_MOUNTAIN_DRAGON_NRM",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
+                     },
+                     {
+                         "Package":  "/Other5Creatures/MountainDragon/Textures/T_MOUNTAIN_DRAGON_RoughnessSpecularMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:QuadrapedCreatures"
                      }
                  ]
 }

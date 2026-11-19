@@ -7,8 +7,10 @@ makes. Content only, no C++. A creation makes its own enemy or NPC Blueprints fr
 | Creature | Folder | Sounds |
 |---|---|---|
 | Barghest | `Content/Barghest` | `Barghest/Audio`: aggro, death |
+| Centaur | `Content/Centaur` | (none: CubeEscape's boss borrows the Barghest's voice) |
 | Griffon | `Content/Griffon` | (uses the shared attack sounds) |
 | Kraken | `Content/Kraken` | `Kraken/Audio`: aggro, death |
+| Mountain Dragon | `Content/MountainDragon` | (none: CubeEscape's boss borrows the Kraken's voice) |
 | Stickman | `Content/Stickman` | (uses the shared attack sounds) |
 | Whisper | `Content/Whisper` | `Whisper/Audio`: aggro, death |
 | Shared | `Content/Shared/Audio` | melee whooshes and impacts (`SW_MeleeWhoosh*`, `SW_MeleeImpact*`) for any creature's attacks |
@@ -20,8 +22,8 @@ makes. Content only, no C++. A creation makes its own enemy or NPC Blueprints fr
   - `PAL_Creatures`.
 
   Both sets of sounds are synthesised by CubeEscape's `Docs/Scripts/SetupSounds.py`.
-- **Stand-ins** for the creatures from Fab (their licences don't let anyone share the source files): Barghest and
-  Griffon (PROTOFACTOR's Quadruped Fantasy Creatures), Kraken, Whisper and Stickman (ROG Creatures).
+- **Stand-ins** for the creatures from Fab (their licences don't let anyone share the source files): Barghest,
+  Centaur, Griffon and Mountain Dragon (PROTOFACTOR's Quadruped Fantasy Creatures), Kraken, Whisper and Stickman (ROG Creatures).
   - Each mesh is a small one-bone box with its own skeleton and physics asset.
   - Each animation holds still for a second.
   - The textures and materials are plain.
