@@ -7,11 +7,11 @@ makes. Content only, no C++. A creation makes its own enemy or NPC Blueprints fr
 | Creature | Folder | Sounds |
 |---|---|---|
 | Barghest | `Content/Barghest` | `Barghest/Audio`: aggro, death |
-| Centaur | `Content/Centaur` | (none: CubeEscape's boss borrows the Barghest's voice) |
-| Griffon | `Content/Griffon` | (uses the shared attack sounds) |
+| Centaur | `Content/Centaur` | `Centaur/Audio`: aggro, death, sword swings |
+| Griffon | `Content/Griffon` | `Griffon/Audio`: aggro (screech), death, wing beats |
 | Kraken | `Content/Kraken` | `Kraken/Audio`: aggro, death |
-| Mountain Dragon | `Content/MountainDragon` | (none: CubeEscape's boss borrows the Kraken's voice) |
-| Stickman | `Content/Stickman` | (uses the shared attack sounds) |
+| Mountain Dragon | `Content/MountainDragon` | `MountainDragon/Audio`: aggro, death, claw hits, fireball spit, flight loop and burst |
+| Stickman | `Content/Stickman` | `Stickman/Audio`: aggro (chitter), death |
 | Whisper | `Content/Whisper` | `Whisper/Audio`: aggro, death |
 | Shared | `Content/Shared/Audio` | melee whooshes and impacts (`SW_MeleeWhoosh*`, `SW_MeleeImpact*`) for any creature's attacks |
 
